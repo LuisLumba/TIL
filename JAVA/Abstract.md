@@ -12,8 +12,7 @@ Cat,Dog,Pig,Caw 등 하위클라스에서는 각자의 특성,기능 등이 존�
 예를들면 동물들의 각자의 울음소리를 내는 메서드인 Sound를 만들고 오버라이딩하여 각자의 동물 클라스에서 소리를 오버라이딩하여 사용한다.
 하지만 Animal에서의 Sound 메서드는 따로 소리가 없으니 이때 abstract로 추상메서드로 만들어준다.
 그러므로 추상메서드에는 기능이 없음으로 바디또한 존재할 수 없고 존재하면 에러가 난다.
-![Alt text](image.png)
-![Alt text](image-1.png)
+![Alt text](AbstractMethodBodyError.png)![Alt text](AbstractMethodNoneBody.png)
 
 
 #### 추상메서드를 하나라도 가지고있는 클라스는 모두 추상클래스로 선언해야한다.
